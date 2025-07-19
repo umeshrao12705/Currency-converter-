@@ -1,0 +1,84 @@
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.converter {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Headings */
+h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #00ffe7;
+}
+
+/* Inputs & Selects */
+label {
+  font-size: 14px;
+  display: block;
+  margin-top: 15px;
+  color: #ddd;
+  text-align: left;
+}
+
+select,
+input[type="number"] {
+  width: 100%;
+  padding: 10px 14px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+select option {
+  color: #000;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #00ffe7;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #00ccbb;
+}
+
+/* Result */
+#result {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
